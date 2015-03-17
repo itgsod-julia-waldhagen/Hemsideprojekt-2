@@ -51,12 +51,34 @@ body {
 }
 
 #aktuellt {
+    background-color: #e8edf6;
     float: left;
-    padding: 50px;
+    margin-top: 15px;
+    padding-left: 80px;
     padding-top: 40px;
+    padding-right: 80px;
+    padding-bottom: 40px;
 }
 
 #kalender {
     float: right;
-    padding-right: 50px;
+    position: relative;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-left: 18px;
+    padding-bottom: 20px;
+    margin-right: 130px;
+    margin-top: 45px;
+    background-color: #e8edf6;
+}
+
+#startbild {
+    float: right;
+    position: relative;
+    padding-right: 1px;
+    padding-top: 300px;
+}
+
+#kalender li {
+    margin-top: 10px;
 }

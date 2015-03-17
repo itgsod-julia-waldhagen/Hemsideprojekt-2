@@ -1,8 +1,9 @@
 #menubar3 {
-    width: 100%;
+    width: 1100px;
     height: 70px;
     background-color: #a8c2f0;
     padding-top: 2px;
+    margin-left: 30px;
 }
 
 table {
@@ -37,10 +38,15 @@ table tr {
 
 #background3 {
     background-color: #6887c1;
-    margin-top: 15px;
+    margin-top: 25px;
     padding-top: 20px;
     padding-left: 60px;
     margin-left: 50px;
     height: 500px;
     width: 1000px;
+}
+
+#schema {
+    padding-top: 40px;
+    padding-left: 60px;
 }
