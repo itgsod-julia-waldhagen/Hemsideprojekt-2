@@ -6,19 +6,19 @@
     margin-left: 30px;
 }
 
-table {
+#menubar4 table {
     position: absolute;
     margin-left: 800px;
     padding-top: 2px;
 
 }
 
-table td {
+#menubar4 table td {
     padding-left: 50px;
     padding-top: 10px;
 }
 
-table tr {
+#menubar4 table tr {
     padding-top: 50px;
 }
 
@@ -42,10 +42,24 @@ table tr {
     padding-top: 20px;
     padding-left: 60px;
     margin-left: 50px;
-    height: 500px;
+    height: 700px;
     width: 1000px;
 }
 
 .login {
     margin-left: 200px;
+}
+
+#background4 table {
+    padding-top: 40px;
+    font-size: 10px;
+    padding-left: 10px;
+}
+
+#background4 table td {
+    padding-top: 10px;
+}
+
+.rubrik {
+    font-size: 30px;
 }
