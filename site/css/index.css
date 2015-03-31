@@ -14,12 +14,17 @@ table {
     position: absolute;
     margin-left: 800px;
     padding-top: 2px;
-
+}
+table a {
+    text-decoration: none;
+    color: black;
+    visited: black;
 }
 
 table td {
     padding-left: 50px;
     padding-top: 10px;
+
 }
 
 table tr {
