@@ -9,7 +9,8 @@
 #menubar4 table {
     position: absolute;
     margin-left: 800px;
-    padding-top: 2px;
+    padding-top: 0px;
+
 
 }
 
@@ -22,7 +23,7 @@
     padding-top: 50px;
 }
 
-table a {
+#menubar4 table a {
     text-decoration: none;
     color: black;
     visited: black;
@@ -30,14 +31,15 @@ table a {
 
 #logga {
     position: absolute;
-    padding-left: 200px;
+    padding-left: 150px;
     padding-right: 2px;
-    padding-top: 27px;
-    width: 50px;
+    padding-top: 20px;
+    font-size: 30px;
+    font-style: italic;
 
 }
 
-#body {
+body {
     background-color: #e8edf6;
 
 }
@@ -48,12 +50,12 @@ table a {
     padding-top: 20px;
     padding-left: 0px;
     margin-left: 80px;
-    height: 900px;
+    height: 950px;
     width: 1000px;
 }
 
 .login {
-    margin-left: 200px;
+    margin-left: 250px;
 }
 
 #background4 table {

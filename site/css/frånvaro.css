@@ -9,7 +9,7 @@
 table {
     position: absolute;
     margin-left: 800px;
-    padding-top: 2px;
+    padding-top: 0px;
 
 }
 
@@ -23,7 +23,7 @@ table tr {
 
 }
 
-table a {
+#menubar2 table a {
     text-decoration: none;
     color: black;
     visited: black;
@@ -31,14 +31,15 @@ table a {
 
 #logga {
     position: absolute;
-    padding-left: 200px;
+    padding-left: 150px;
     padding-right: 2px;
-    padding-top: 27px;
-    width: 50px;
+    padding-top: 20px;
+    font-size: 30px;
+    font-style: italic;
 
 }
 
-#body {
+body {
     background-color: #e8edf6;
 
 }
@@ -54,5 +55,52 @@ table a {
 }
 
 .login {
-    margin-left: 200px;
+    margin-left: 240px;
+}
+
+#box {
+    height: 500px;
+    width: 1000px;
+
+}
+
+#box h1 {
+    padding-top: 20px;
+    margin-left: 400px;
+}
+
+
+
+#left {
+    position: relative;
+    width: 200px;
+    float: left;
+    padding: 20px;
+    border: dotted black 2px;
+}
+
+#right {
+    position: relative;
+    width: 210px;
+    float: right;
+    padding: 20px;
+    margin-right: 50px;
+    border: dotted black 2px;
+}
+#middle {
+    position: relative;
+    width: 200px;
+    float: right;
+    padding: 20px;
+    margin-right: 105px;
+    border: dotted black 2px;
+}
+
+
+#box .namn  {
+    font-size: 20px;
+}
+
+#box .titel {
+    font-style: italic;
 }

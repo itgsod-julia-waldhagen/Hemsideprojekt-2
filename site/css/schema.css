@@ -9,7 +9,7 @@
 table {
     position: absolute;
     margin-left: 800px;
-    padding-top: 2px;
+    padding-top: 0px;
 
 }
 
@@ -22,22 +22,24 @@ table tr {
     padding-top: 50px;
 }
 
-table a {
+#menubar3 table a {
     text-decoration: none;
     color: black;
     visited: black;
 }
 
+
 #logga {
     position: absolute;
-    padding-left: 200px;
+    padding-left: 150px;
     padding-right: 2px;
-    padding-top: 27px;
-    width: 50px;
+    padding-top: 20px;
+    font-size: 30px;
+    font-style: italic;
 
 }
 
-#body {
+body {
     background-color: #e8edf6;
 
 }
