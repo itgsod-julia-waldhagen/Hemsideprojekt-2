@@ -34,11 +34,11 @@ table tr {
 
 #logga {
     position: absolute;
-    padding-left: 150px;
+    padding-left: 90px;
     padding-right: 2px;
-    padding-top: 20px;
+    padding-top: 10px;
 
-    font-size: 30px;
+    font-size: 40px;
     font-style: italic;
 
 }
@@ -54,14 +54,15 @@ body {
     padding-top: 20px;
     padding-left: 60px;
     margin-left: 50px;
-    height: 500px;
+    height: 570px;
     width: 1000px;
 }
 
 #aktuellt {
     background-color: #e8edf6;
     float: left;
-    margin-top: 15px;
+    margin-top: 25px;
+    margin-left: 20px;
     padding-left: 80px;
     padding-top: 40px;
     padding-right: 80px;
@@ -73,7 +74,7 @@ body {
     margin-top: 45px;
     margin-left: 70px;
     width: 300px;
-    height: 180px;
+    height: 195px;
     background-color: #e8edf6;
 }
 
@@ -96,7 +97,7 @@ body {
 #startbild {
 
     position: relative;
-    margin-left: 80px;
+    margin-left: 85px;
     margin-top: 50px;
 }
 

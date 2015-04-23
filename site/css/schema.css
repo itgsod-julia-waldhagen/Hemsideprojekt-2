@@ -31,10 +31,11 @@ table tr {
 
 #logga {
     position: absolute;
-    padding-left: 150px;
+    padding-left: 90px;
     padding-right: 2px;
-    padding-top: 20px;
-    font-size: 30px;
+    padding-top: 10px;
+
+    font-size: 40px;
     font-style: italic;
 
 }
