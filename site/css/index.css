@@ -48,6 +48,12 @@ body {
 
 }
 
+
+#slides {
+     display:none;
+}
+
+
 #background {
     background-color: #6887c1;
     margin-top: 25px;
@@ -95,8 +101,7 @@ body {
 }
 
 #startbild {
-
-    position: relative;
+    width: 250px;
     margin-left: 85px;
     margin-top: 50px;
 }

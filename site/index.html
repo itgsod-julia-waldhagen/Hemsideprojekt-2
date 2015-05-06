@@ -5,6 +5,17 @@
     <title>Skolan Skola!</title>
     <link rel="stylesheet" type="text/css" href="./css/index.css">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.slides.min.js"></script>
+
+    <script>
+        $(function(){
+            $("#slides").slidesjs({
+                width: 250,
+                height: 150
+            });
+        });
+    </script>
 </head>
 <body>
 
@@ -41,7 +52,11 @@
             </ul>
         </div>
         <div id="startbild">
-            <img src="./img/skolan.jpg">
+            <div id="slides">
+                <img src="img/buss.jpg">
+                <img src="img/tree.jpg">
+                <img src="img/chair.jpg">
+            </div>
         </div>
     </div>
 </div>
