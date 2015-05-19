@@ -107,8 +107,8 @@ body {
 
 }
 
-#Next {
-    visited: black;
+#slides p {
+    text-decoration: none;
     color: black;
 }
 
